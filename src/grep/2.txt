@@ -1,0 +1,7 @@
+rm -f s21_grep
+rm -f log.txt
+rm -f result.txt
+rm -f valgrind_output.txt
+gcc -Wall -Werror -Wextra -std=c11 ./s21_grep.c -o ./s21_grep
+gcc -Wall -Werror -Wextra -std=c11 ./s21_grep.c -o ./s21_grep
+bash testing.sh

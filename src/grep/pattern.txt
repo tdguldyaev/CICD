@@ -1,0 +1,4 @@
+for
+^hi
+^void
+regex

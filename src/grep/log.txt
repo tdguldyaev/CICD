@@ -1,0 +1,721 @@
+
+for s21_grep.c s21_grep.h -v -c -l
+for s21_grep.c -v -c -l
+-e for -e ^regex s21_grep.c s21_grep.h -v -c -l
+-e for -e hey s21_grep.c -v -c -l
+-e for -e ^regex s21_grep.c -v -c -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -c -l -f pattern.txt
+for s21_grep.c s21_grep.h -v -c -n
+for s21_grep.c -v -c -n
+-e for -e ^regex s21_grep.c s21_grep.h -v -c -n
+-e for -e hey s21_grep.c -v -c -n
+-e for -e ^regex s21_grep.c -v -c -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -c -n -f pattern.txt
+for s21_grep.c s21_grep.h -v -c -h
+for s21_grep.c -v -c -h
+-e for -e ^regex s21_grep.c s21_grep.h -v -c -h
+-e for -e hey s21_grep.c -v -c -h
+-e for -e ^regex s21_grep.c -v -c -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -c -h -f pattern.txt
+for s21_grep.c s21_grep.h -v -c -o
+for s21_grep.c -v -c -o
+-e for -e ^regex s21_grep.c s21_grep.h -v -c -o
+-e for -e hey s21_grep.c -v -c -o
+-e for -e ^regex s21_grep.c -v -c -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -c -o -f pattern.txt
+for s21_grep.c s21_grep.h -v -l -c
+for s21_grep.c -v -l -c
+-e for -e ^regex s21_grep.c s21_grep.h -v -l -c
+-e for -e hey s21_grep.c -v -l -c
+-e for -e ^regex s21_grep.c -v -l -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -l -c -f pattern.txt
+for s21_grep.c s21_grep.h -v -l -n
+for s21_grep.c -v -l -n
+-e for -e ^regex s21_grep.c s21_grep.h -v -l -n
+-e for -e hey s21_grep.c -v -l -n
+-e for -e ^regex s21_grep.c -v -l -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -l -n -f pattern.txt
+for s21_grep.c s21_grep.h -v -l -h
+for s21_grep.c -v -l -h
+-e for -e ^regex s21_grep.c s21_grep.h -v -l -h
+-e for -e hey s21_grep.c -v -l -h
+-e for -e ^regex s21_grep.c -v -l -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -l -h -f pattern.txt
+for s21_grep.c s21_grep.h -v -l -o
+for s21_grep.c -v -l -o
+-e for -e ^regex s21_grep.c s21_grep.h -v -l -o
+-e for -e hey s21_grep.c -v -l -o
+-e for -e ^regex s21_grep.c -v -l -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -l -o -f pattern.txt
+for s21_grep.c s21_grep.h -v -n -c
+for s21_grep.c -v -n -c
+-e for -e ^regex s21_grep.c s21_grep.h -v -n -c
+-e for -e hey s21_grep.c -v -n -c
+-e for -e ^regex s21_grep.c -v -n -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -n -c -f pattern.txt
+for s21_grep.c s21_grep.h -v -n -l
+for s21_grep.c -v -n -l
+-e for -e ^regex s21_grep.c s21_grep.h -v -n -l
+-e for -e hey s21_grep.c -v -n -l
+-e for -e ^regex s21_grep.c -v -n -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -n -l -f pattern.txt
+for s21_grep.c s21_grep.h -v -n -h
+for s21_grep.c -v -n -h
+-e for -e ^regex s21_grep.c s21_grep.h -v -n -h
+-e for -e hey s21_grep.c -v -n -h
+-e for -e ^regex s21_grep.c -v -n -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -n -h -f pattern.txt
+for s21_grep.c s21_grep.h -v -n -o
+for s21_grep.c -v -n -o
+-e for -e ^regex s21_grep.c s21_grep.h -v -n -o
+-e for -e hey s21_grep.c -v -n -o
+-e for -e ^regex s21_grep.c -v -n -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -n -o -f pattern.txt
+for s21_grep.c s21_grep.h -v -h -c
+for s21_grep.c -v -h -c
+-e for -e ^regex s21_grep.c s21_grep.h -v -h -c
+-e for -e hey s21_grep.c -v -h -c
+-e for -e ^regex s21_grep.c -v -h -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -h -c -f pattern.txt
+for s21_grep.c s21_grep.h -v -h -l
+for s21_grep.c -v -h -l
+-e for -e ^regex s21_grep.c s21_grep.h -v -h -l
+-e for -e hey s21_grep.c -v -h -l
+-e for -e ^regex s21_grep.c -v -h -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -h -l -f pattern.txt
+for s21_grep.c s21_grep.h -v -h -n
+for s21_grep.c -v -h -n
+-e for -e ^regex s21_grep.c s21_grep.h -v -h -n
+-e for -e hey s21_grep.c -v -h -n
+-e for -e ^regex s21_grep.c -v -h -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -h -n -f pattern.txt
+for s21_grep.c s21_grep.h -v -h -o
+for s21_grep.c -v -h -o
+-e for -e ^regex s21_grep.c s21_grep.h -v -h -o
+-e for -e hey s21_grep.c -v -h -o
+-e for -e ^regex s21_grep.c -v -h -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -h -o -f pattern.txt
+for s21_grep.c s21_grep.h -v -o -c
+for s21_grep.c -v -o -c
+-e for -e ^regex s21_grep.c s21_grep.h -v -o -c
+-e for -e hey s21_grep.c -v -o -c
+-e for -e ^regex s21_grep.c -v -o -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -o -c -f pattern.txt
+for s21_grep.c s21_grep.h -v -o -l
+for s21_grep.c -v -o -l
+-e for -e ^regex s21_grep.c s21_grep.h -v -o -l
+-e for -e hey s21_grep.c -v -o -l
+-e for -e ^regex s21_grep.c -v -o -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -o -l -f pattern.txt
+for s21_grep.c s21_grep.h -v -o -n
+for s21_grep.c -v -o -n
+-e for -e ^regex s21_grep.c s21_grep.h -v -o -n
+-e for -e hey s21_grep.c -v -o -n
+-e for -e ^regex s21_grep.c -v -o -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -o -n -f pattern.txt
+for s21_grep.c s21_grep.h -v -o -h
+for s21_grep.c -v -o -h
+-e for -e ^regex s21_grep.c s21_grep.h -v -o -h
+-e for -e hey s21_grep.c -v -o -h
+-e for -e ^regex s21_grep.c -v -o -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -v -o -h -f pattern.txt
+for s21_grep.c s21_grep.h -c -v -l
+for s21_grep.c -c -v -l
+-e for -e ^regex s21_grep.c s21_grep.h -c -v -l
+-e for -e hey s21_grep.c -c -v -l
+-e for -e ^regex s21_grep.c -c -v -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -v -l -f pattern.txt
+for s21_grep.c s21_grep.h -c -v -n
+for s21_grep.c -c -v -n
+-e for -e ^regex s21_grep.c s21_grep.h -c -v -n
+-e for -e hey s21_grep.c -c -v -n
+-e for -e ^regex s21_grep.c -c -v -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -v -n -f pattern.txt
+for s21_grep.c s21_grep.h -c -v -h
+for s21_grep.c -c -v -h
+-e for -e ^regex s21_grep.c s21_grep.h -c -v -h
+-e for -e hey s21_grep.c -c -v -h
+-e for -e ^regex s21_grep.c -c -v -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -v -h -f pattern.txt
+for s21_grep.c s21_grep.h -c -v -o
+for s21_grep.c -c -v -o
+-e for -e ^regex s21_grep.c s21_grep.h -c -v -o
+-e for -e hey s21_grep.c -c -v -o
+-e for -e ^regex s21_grep.c -c -v -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -v -o -f pattern.txt
+for s21_grep.c s21_grep.h -c -l -v
+for s21_grep.c -c -l -v
+-e for -e ^regex s21_grep.c s21_grep.h -c -l -v
+-e for -e hey s21_grep.c -c -l -v
+-e for -e ^regex s21_grep.c -c -l -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -l -v -f pattern.txt
+for s21_grep.c s21_grep.h -c -l -n
+for s21_grep.c -c -l -n
+-e for -e ^regex s21_grep.c s21_grep.h -c -l -n
+-e for -e hey s21_grep.c -c -l -n
+-e for -e ^regex s21_grep.c -c -l -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -l -n -f pattern.txt
+for s21_grep.c s21_grep.h -c -l -h
+for s21_grep.c -c -l -h
+-e for -e ^regex s21_grep.c s21_grep.h -c -l -h
+-e for -e hey s21_grep.c -c -l -h
+-e for -e ^regex s21_grep.c -c -l -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -l -h -f pattern.txt
+for s21_grep.c s21_grep.h -c -l -o
+for s21_grep.c -c -l -o
+-e for -e ^regex s21_grep.c s21_grep.h -c -l -o
+-e for -e hey s21_grep.c -c -l -o
+-e for -e ^regex s21_grep.c -c -l -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -l -o -f pattern.txt
+for s21_grep.c s21_grep.h -c -n -v
+for s21_grep.c -c -n -v
+-e for -e ^regex s21_grep.c s21_grep.h -c -n -v
+-e for -e hey s21_grep.c -c -n -v
+-e for -e ^regex s21_grep.c -c -n -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -n -v -f pattern.txt
+for s21_grep.c s21_grep.h -c -n -l
+for s21_grep.c -c -n -l
+-e for -e ^regex s21_grep.c s21_grep.h -c -n -l
+-e for -e hey s21_grep.c -c -n -l
+-e for -e ^regex s21_grep.c -c -n -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -n -l -f pattern.txt
+for s21_grep.c s21_grep.h -c -n -h
+for s21_grep.c -c -n -h
+-e for -e ^regex s21_grep.c s21_grep.h -c -n -h
+-e for -e hey s21_grep.c -c -n -h
+-e for -e ^regex s21_grep.c -c -n -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -n -h -f pattern.txt
+for s21_grep.c s21_grep.h -c -n -o
+for s21_grep.c -c -n -o
+-e for -e ^regex s21_grep.c s21_grep.h -c -n -o
+-e for -e hey s21_grep.c -c -n -o
+-e for -e ^regex s21_grep.c -c -n -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -n -o -f pattern.txt
+for s21_grep.c s21_grep.h -c -h -v
+for s21_grep.c -c -h -v
+-e for -e ^regex s21_grep.c s21_grep.h -c -h -v
+-e for -e hey s21_grep.c -c -h -v
+-e for -e ^regex s21_grep.c -c -h -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -h -v -f pattern.txt
+for s21_grep.c s21_grep.h -c -h -l
+for s21_grep.c -c -h -l
+-e for -e ^regex s21_grep.c s21_grep.h -c -h -l
+-e for -e hey s21_grep.c -c -h -l
+-e for -e ^regex s21_grep.c -c -h -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -h -l -f pattern.txt
+for s21_grep.c s21_grep.h -c -h -n
+for s21_grep.c -c -h -n
+-e for -e ^regex s21_grep.c s21_grep.h -c -h -n
+-e for -e hey s21_grep.c -c -h -n
+-e for -e ^regex s21_grep.c -c -h -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -h -n -f pattern.txt
+for s21_grep.c s21_grep.h -c -h -o
+for s21_grep.c -c -h -o
+-e for -e ^regex s21_grep.c s21_grep.h -c -h -o
+-e for -e hey s21_grep.c -c -h -o
+-e for -e ^regex s21_grep.c -c -h -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -h -o -f pattern.txt
+for s21_grep.c s21_grep.h -c -o -v
+for s21_grep.c -c -o -v
+-e for -e ^regex s21_grep.c s21_grep.h -c -o -v
+-e for -e hey s21_grep.c -c -o -v
+-e for -e ^regex s21_grep.c -c -o -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -o -v -f pattern.txt
+for s21_grep.c s21_grep.h -c -o -l
+for s21_grep.c -c -o -l
+-e for -e ^regex s21_grep.c s21_grep.h -c -o -l
+-e for -e hey s21_grep.c -c -o -l
+-e for -e ^regex s21_grep.c -c -o -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -o -l -f pattern.txt
+for s21_grep.c s21_grep.h -c -o -n
+for s21_grep.c -c -o -n
+-e for -e ^regex s21_grep.c s21_grep.h -c -o -n
+-e for -e hey s21_grep.c -c -o -n
+-e for -e ^regex s21_grep.c -c -o -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -o -n -f pattern.txt
+for s21_grep.c s21_grep.h -c -o -h
+for s21_grep.c -c -o -h
+-e for -e ^regex s21_grep.c s21_grep.h -c -o -h
+-e for -e hey s21_grep.c -c -o -h
+-e for -e ^regex s21_grep.c -c -o -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -c -o -h -f pattern.txt
+for s21_grep.c s21_grep.h -l -v -c
+for s21_grep.c -l -v -c
+-e for -e ^regex s21_grep.c s21_grep.h -l -v -c
+-e for -e hey s21_grep.c -l -v -c
+-e for -e ^regex s21_grep.c -l -v -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -v -c -f pattern.txt
+for s21_grep.c s21_grep.h -l -v -n
+for s21_grep.c -l -v -n
+-e for -e ^regex s21_grep.c s21_grep.h -l -v -n
+-e for -e hey s21_grep.c -l -v -n
+-e for -e ^regex s21_grep.c -l -v -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -v -n -f pattern.txt
+for s21_grep.c s21_grep.h -l -v -h
+for s21_grep.c -l -v -h
+-e for -e ^regex s21_grep.c s21_grep.h -l -v -h
+-e for -e hey s21_grep.c -l -v -h
+-e for -e ^regex s21_grep.c -l -v -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -v -h -f pattern.txt
+for s21_grep.c s21_grep.h -l -v -o
+for s21_grep.c -l -v -o
+-e for -e ^regex s21_grep.c s21_grep.h -l -v -o
+-e for -e hey s21_grep.c -l -v -o
+-e for -e ^regex s21_grep.c -l -v -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -v -o -f pattern.txt
+for s21_grep.c s21_grep.h -l -c -v
+for s21_grep.c -l -c -v
+-e for -e ^regex s21_grep.c s21_grep.h -l -c -v
+-e for -e hey s21_grep.c -l -c -v
+-e for -e ^regex s21_grep.c -l -c -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -c -v -f pattern.txt
+for s21_grep.c s21_grep.h -l -c -n
+for s21_grep.c -l -c -n
+-e for -e ^regex s21_grep.c s21_grep.h -l -c -n
+-e for -e hey s21_grep.c -l -c -n
+-e for -e ^regex s21_grep.c -l -c -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -c -n -f pattern.txt
+for s21_grep.c s21_grep.h -l -c -h
+for s21_grep.c -l -c -h
+-e for -e ^regex s21_grep.c s21_grep.h -l -c -h
+-e for -e hey s21_grep.c -l -c -h
+-e for -e ^regex s21_grep.c -l -c -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -c -h -f pattern.txt
+for s21_grep.c s21_grep.h -l -c -o
+for s21_grep.c -l -c -o
+-e for -e ^regex s21_grep.c s21_grep.h -l -c -o
+-e for -e hey s21_grep.c -l -c -o
+-e for -e ^regex s21_grep.c -l -c -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -c -o -f pattern.txt
+for s21_grep.c s21_grep.h -l -n -v
+for s21_grep.c -l -n -v
+-e for -e ^regex s21_grep.c s21_grep.h -l -n -v
+-e for -e hey s21_grep.c -l -n -v
+-e for -e ^regex s21_grep.c -l -n -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -n -v -f pattern.txt
+for s21_grep.c s21_grep.h -l -n -c
+for s21_grep.c -l -n -c
+-e for -e ^regex s21_grep.c s21_grep.h -l -n -c
+-e for -e hey s21_grep.c -l -n -c
+-e for -e ^regex s21_grep.c -l -n -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -n -c -f pattern.txt
+for s21_grep.c s21_grep.h -l -n -h
+for s21_grep.c -l -n -h
+-e for -e ^regex s21_grep.c s21_grep.h -l -n -h
+-e for -e hey s21_grep.c -l -n -h
+-e for -e ^regex s21_grep.c -l -n -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -n -h -f pattern.txt
+for s21_grep.c s21_grep.h -l -n -o
+for s21_grep.c -l -n -o
+-e for -e ^regex s21_grep.c s21_grep.h -l -n -o
+-e for -e hey s21_grep.c -l -n -o
+-e for -e ^regex s21_grep.c -l -n -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -n -o -f pattern.txt
+for s21_grep.c s21_grep.h -l -h -v
+for s21_grep.c -l -h -v
+-e for -e ^regex s21_grep.c s21_grep.h -l -h -v
+-e for -e hey s21_grep.c -l -h -v
+-e for -e ^regex s21_grep.c -l -h -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -h -v -f pattern.txt
+for s21_grep.c s21_grep.h -l -h -c
+for s21_grep.c -l -h -c
+-e for -e ^regex s21_grep.c s21_grep.h -l -h -c
+-e for -e hey s21_grep.c -l -h -c
+-e for -e ^regex s21_grep.c -l -h -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -h -c -f pattern.txt
+for s21_grep.c s21_grep.h -l -h -n
+for s21_grep.c -l -h -n
+-e for -e ^regex s21_grep.c s21_grep.h -l -h -n
+-e for -e hey s21_grep.c -l -h -n
+-e for -e ^regex s21_grep.c -l -h -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -h -n -f pattern.txt
+for s21_grep.c s21_grep.h -l -h -o
+for s21_grep.c -l -h -o
+-e for -e ^regex s21_grep.c s21_grep.h -l -h -o
+-e for -e hey s21_grep.c -l -h -o
+-e for -e ^regex s21_grep.c -l -h -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -h -o -f pattern.txt
+for s21_grep.c s21_grep.h -l -o -v
+for s21_grep.c -l -o -v
+-e for -e ^regex s21_grep.c s21_grep.h -l -o -v
+-e for -e hey s21_grep.c -l -o -v
+-e for -e ^regex s21_grep.c -l -o -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -o -v -f pattern.txt
+for s21_grep.c s21_grep.h -l -o -c
+for s21_grep.c -l -o -c
+-e for -e ^regex s21_grep.c s21_grep.h -l -o -c
+-e for -e hey s21_grep.c -l -o -c
+-e for -e ^regex s21_grep.c -l -o -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -o -c -f pattern.txt
+for s21_grep.c s21_grep.h -l -o -n
+for s21_grep.c -l -o -n
+-e for -e ^regex s21_grep.c s21_grep.h -l -o -n
+-e for -e hey s21_grep.c -l -o -n
+-e for -e ^regex s21_grep.c -l -o -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -o -n -f pattern.txt
+for s21_grep.c s21_grep.h -l -o -h
+for s21_grep.c -l -o -h
+-e for -e ^regex s21_grep.c s21_grep.h -l -o -h
+-e for -e hey s21_grep.c -l -o -h
+-e for -e ^regex s21_grep.c -l -o -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -l -o -h -f pattern.txt
+for s21_grep.c s21_grep.h -n -v -c
+for s21_grep.c -n -v -c
+-e for -e ^regex s21_grep.c s21_grep.h -n -v -c
+-e for -e hey s21_grep.c -n -v -c
+-e for -e ^regex s21_grep.c -n -v -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -v -c -f pattern.txt
+for s21_grep.c s21_grep.h -n -v -l
+for s21_grep.c -n -v -l
+-e for -e ^regex s21_grep.c s21_grep.h -n -v -l
+-e for -e hey s21_grep.c -n -v -l
+-e for -e ^regex s21_grep.c -n -v -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -v -l -f pattern.txt
+for s21_grep.c s21_grep.h -n -v -h
+for s21_grep.c -n -v -h
+-e for -e ^regex s21_grep.c s21_grep.h -n -v -h
+-e for -e hey s21_grep.c -n -v -h
+-e for -e ^regex s21_grep.c -n -v -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -v -h -f pattern.txt
+for s21_grep.c s21_grep.h -n -v -o
+for s21_grep.c -n -v -o
+-e for -e ^regex s21_grep.c s21_grep.h -n -v -o
+-e for -e hey s21_grep.c -n -v -o
+-e for -e ^regex s21_grep.c -n -v -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -v -o -f pattern.txt
+for s21_grep.c s21_grep.h -n -c -v
+for s21_grep.c -n -c -v
+-e for -e ^regex s21_grep.c s21_grep.h -n -c -v
+-e for -e hey s21_grep.c -n -c -v
+-e for -e ^regex s21_grep.c -n -c -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -c -v -f pattern.txt
+for s21_grep.c s21_grep.h -n -c -l
+for s21_grep.c -n -c -l
+-e for -e ^regex s21_grep.c s21_grep.h -n -c -l
+-e for -e hey s21_grep.c -n -c -l
+-e for -e ^regex s21_grep.c -n -c -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -c -l -f pattern.txt
+for s21_grep.c s21_grep.h -n -c -h
+for s21_grep.c -n -c -h
+-e for -e ^regex s21_grep.c s21_grep.h -n -c -h
+-e for -e hey s21_grep.c -n -c -h
+-e for -e ^regex s21_grep.c -n -c -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -c -h -f pattern.txt
+for s21_grep.c s21_grep.h -n -c -o
+for s21_grep.c -n -c -o
+-e for -e ^regex s21_grep.c s21_grep.h -n -c -o
+-e for -e hey s21_grep.c -n -c -o
+-e for -e ^regex s21_grep.c -n -c -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -c -o -f pattern.txt
+for s21_grep.c s21_grep.h -n -l -v
+for s21_grep.c -n -l -v
+-e for -e ^regex s21_grep.c s21_grep.h -n -l -v
+-e for -e hey s21_grep.c -n -l -v
+-e for -e ^regex s21_grep.c -n -l -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -l -v -f pattern.txt
+for s21_grep.c s21_grep.h -n -l -c
+for s21_grep.c -n -l -c
+-e for -e ^regex s21_grep.c s21_grep.h -n -l -c
+-e for -e hey s21_grep.c -n -l -c
+-e for -e ^regex s21_grep.c -n -l -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -l -c -f pattern.txt
+for s21_grep.c s21_grep.h -n -l -h
+for s21_grep.c -n -l -h
+-e for -e ^regex s21_grep.c s21_grep.h -n -l -h
+-e for -e hey s21_grep.c -n -l -h
+-e for -e ^regex s21_grep.c -n -l -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -l -h -f pattern.txt
+for s21_grep.c s21_grep.h -n -l -o
+for s21_grep.c -n -l -o
+-e for -e ^regex s21_grep.c s21_grep.h -n -l -o
+-e for -e hey s21_grep.c -n -l -o
+-e for -e ^regex s21_grep.c -n -l -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -l -o -f pattern.txt
+for s21_grep.c s21_grep.h -n -h -v
+for s21_grep.c -n -h -v
+-e for -e ^regex s21_grep.c s21_grep.h -n -h -v
+-e for -e hey s21_grep.c -n -h -v
+-e for -e ^regex s21_grep.c -n -h -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -h -v -f pattern.txt
+for s21_grep.c s21_grep.h -n -h -c
+for s21_grep.c -n -h -c
+-e for -e ^regex s21_grep.c s21_grep.h -n -h -c
+-e for -e hey s21_grep.c -n -h -c
+-e for -e ^regex s21_grep.c -n -h -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -h -c -f pattern.txt
+for s21_grep.c s21_grep.h -n -h -l
+for s21_grep.c -n -h -l
+-e for -e ^regex s21_grep.c s21_grep.h -n -h -l
+-e for -e hey s21_grep.c -n -h -l
+-e for -e ^regex s21_grep.c -n -h -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -h -l -f pattern.txt
+for s21_grep.c s21_grep.h -n -h -o
+for s21_grep.c -n -h -o
+-e for -e ^regex s21_grep.c s21_grep.h -n -h -o
+-e for -e hey s21_grep.c -n -h -o
+-e for -e ^regex s21_grep.c -n -h -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -h -o -f pattern.txt
+for s21_grep.c s21_grep.h -n -o -v
+for s21_grep.c -n -o -v
+-e for -e ^regex s21_grep.c s21_grep.h -n -o -v
+-e for -e hey s21_grep.c -n -o -v
+-e for -e ^regex s21_grep.c -n -o -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -o -v -f pattern.txt
+for s21_grep.c s21_grep.h -n -o -c
+for s21_grep.c -n -o -c
+-e for -e ^regex s21_grep.c s21_grep.h -n -o -c
+-e for -e hey s21_grep.c -n -o -c
+-e for -e ^regex s21_grep.c -n -o -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -o -c -f pattern.txt
+for s21_grep.c s21_grep.h -n -o -l
+for s21_grep.c -n -o -l
+-e for -e ^regex s21_grep.c s21_grep.h -n -o -l
+-e for -e hey s21_grep.c -n -o -l
+-e for -e ^regex s21_grep.c -n -o -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -o -l -f pattern.txt
+for s21_grep.c s21_grep.h -n -o -h
+for s21_grep.c -n -o -h
+-e for -e ^regex s21_grep.c s21_grep.h -n -o -h
+-e for -e hey s21_grep.c -n -o -h
+-e for -e ^regex s21_grep.c -n -o -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -n -o -h -f pattern.txt
+for s21_grep.c s21_grep.h -h -v -c
+for s21_grep.c -h -v -c
+-e for -e ^regex s21_grep.c s21_grep.h -h -v -c
+-e for -e hey s21_grep.c -h -v -c
+-e for -e ^regex s21_grep.c -h -v -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -v -c -f pattern.txt
+for s21_grep.c s21_grep.h -h -v -l
+for s21_grep.c -h -v -l
+-e for -e ^regex s21_grep.c s21_grep.h -h -v -l
+-e for -e hey s21_grep.c -h -v -l
+-e for -e ^regex s21_grep.c -h -v -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -v -l -f pattern.txt
+for s21_grep.c s21_grep.h -h -v -n
+for s21_grep.c -h -v -n
+-e for -e ^regex s21_grep.c s21_grep.h -h -v -n
+-e for -e hey s21_grep.c -h -v -n
+-e for -e ^regex s21_grep.c -h -v -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -v -n -f pattern.txt
+for s21_grep.c s21_grep.h -h -v -o
+for s21_grep.c -h -v -o
+-e for -e ^regex s21_grep.c s21_grep.h -h -v -o
+-e for -e hey s21_grep.c -h -v -o
+-e for -e ^regex s21_grep.c -h -v -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -v -o -f pattern.txt
+for s21_grep.c s21_grep.h -h -c -v
+for s21_grep.c -h -c -v
+-e for -e ^regex s21_grep.c s21_grep.h -h -c -v
+-e for -e hey s21_grep.c -h -c -v
+-e for -e ^regex s21_grep.c -h -c -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -c -v -f pattern.txt
+for s21_grep.c s21_grep.h -h -c -l
+for s21_grep.c -h -c -l
+-e for -e ^regex s21_grep.c s21_grep.h -h -c -l
+-e for -e hey s21_grep.c -h -c -l
+-e for -e ^regex s21_grep.c -h -c -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -c -l -f pattern.txt
+for s21_grep.c s21_grep.h -h -c -n
+for s21_grep.c -h -c -n
+-e for -e ^regex s21_grep.c s21_grep.h -h -c -n
+-e for -e hey s21_grep.c -h -c -n
+-e for -e ^regex s21_grep.c -h -c -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -c -n -f pattern.txt
+for s21_grep.c s21_grep.h -h -c -o
+for s21_grep.c -h -c -o
+-e for -e ^regex s21_grep.c s21_grep.h -h -c -o
+-e for -e hey s21_grep.c -h -c -o
+-e for -e ^regex s21_grep.c -h -c -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -c -o -f pattern.txt
+for s21_grep.c s21_grep.h -h -l -v
+for s21_grep.c -h -l -v
+-e for -e ^regex s21_grep.c s21_grep.h -h -l -v
+-e for -e hey s21_grep.c -h -l -v
+-e for -e ^regex s21_grep.c -h -l -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -l -v -f pattern.txt
+for s21_grep.c s21_grep.h -h -l -c
+for s21_grep.c -h -l -c
+-e for -e ^regex s21_grep.c s21_grep.h -h -l -c
+-e for -e hey s21_grep.c -h -l -c
+-e for -e ^regex s21_grep.c -h -l -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -l -c -f pattern.txt
+for s21_grep.c s21_grep.h -h -l -n
+for s21_grep.c -h -l -n
+-e for -e ^regex s21_grep.c s21_grep.h -h -l -n
+-e for -e hey s21_grep.c -h -l -n
+-e for -e ^regex s21_grep.c -h -l -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -l -n -f pattern.txt
+for s21_grep.c s21_grep.h -h -l -o
+for s21_grep.c -h -l -o
+-e for -e ^regex s21_grep.c s21_grep.h -h -l -o
+-e for -e hey s21_grep.c -h -l -o
+-e for -e ^regex s21_grep.c -h -l -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -l -o -f pattern.txt
+for s21_grep.c s21_grep.h -h -n -v
+for s21_grep.c -h -n -v
+-e for -e ^regex s21_grep.c s21_grep.h -h -n -v
+-e for -e hey s21_grep.c -h -n -v
+-e for -e ^regex s21_grep.c -h -n -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -n -v -f pattern.txt
+for s21_grep.c s21_grep.h -h -n -c
+for s21_grep.c -h -n -c
+-e for -e ^regex s21_grep.c s21_grep.h -h -n -c
+-e for -e hey s21_grep.c -h -n -c
+-e for -e ^regex s21_grep.c -h -n -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -n -c -f pattern.txt
+for s21_grep.c s21_grep.h -h -n -l
+for s21_grep.c -h -n -l
+-e for -e ^regex s21_grep.c s21_grep.h -h -n -l
+-e for -e hey s21_grep.c -h -n -l
+-e for -e ^regex s21_grep.c -h -n -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -n -l -f pattern.txt
+for s21_grep.c s21_grep.h -h -n -o
+for s21_grep.c -h -n -o
+-e for -e ^regex s21_grep.c s21_grep.h -h -n -o
+-e for -e hey s21_grep.c -h -n -o
+-e for -e ^regex s21_grep.c -h -n -o -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -n -o -f pattern.txt
+for s21_grep.c s21_grep.h -h -o -v
+for s21_grep.c -h -o -v
+-e for -e ^regex s21_grep.c s21_grep.h -h -o -v
+-e for -e hey s21_grep.c -h -o -v
+-e for -e ^regex s21_grep.c -h -o -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -o -v -f pattern.txt
+for s21_grep.c s21_grep.h -h -o -c
+for s21_grep.c -h -o -c
+-e for -e ^regex s21_grep.c s21_grep.h -h -o -c
+-e for -e hey s21_grep.c -h -o -c
+-e for -e ^regex s21_grep.c -h -o -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -o -c -f pattern.txt
+for s21_grep.c s21_grep.h -h -o -l
+for s21_grep.c -h -o -l
+-e for -e ^regex s21_grep.c s21_grep.h -h -o -l
+-e for -e hey s21_grep.c -h -o -l
+-e for -e ^regex s21_grep.c -h -o -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -o -l -f pattern.txt
+for s21_grep.c s21_grep.h -h -o -n
+for s21_grep.c -h -o -n
+-e for -e ^regex s21_grep.c s21_grep.h -h -o -n
+-e for -e hey s21_grep.c -h -o -n
+-e for -e ^regex s21_grep.c -h -o -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -h -o -n -f pattern.txt
+for s21_grep.c s21_grep.h -o -v -c
+for s21_grep.c -o -v -c
+-e for -e ^regex s21_grep.c s21_grep.h -o -v -c
+-e for -e hey s21_grep.c -o -v -c
+-e for -e ^regex s21_grep.c -o -v -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -v -c -f pattern.txt
+for s21_grep.c s21_grep.h -o -v -l
+for s21_grep.c -o -v -l
+-e for -e ^regex s21_grep.c s21_grep.h -o -v -l
+-e for -e hey s21_grep.c -o -v -l
+-e for -e ^regex s21_grep.c -o -v -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -v -l -f pattern.txt
+for s21_grep.c s21_grep.h -o -v -n
+for s21_grep.c -o -v -n
+-e for -e ^regex s21_grep.c s21_grep.h -o -v -n
+-e for -e hey s21_grep.c -o -v -n
+-e for -e ^regex s21_grep.c -o -v -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -v -n -f pattern.txt
+for s21_grep.c s21_grep.h -o -v -h
+for s21_grep.c -o -v -h
+-e for -e ^regex s21_grep.c s21_grep.h -o -v -h
+-e for -e hey s21_grep.c -o -v -h
+-e for -e ^regex s21_grep.c -o -v -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -v -h -f pattern.txt
+for s21_grep.c s21_grep.h -o -c -v
+for s21_grep.c -o -c -v
+-e for -e ^regex s21_grep.c s21_grep.h -o -c -v
+-e for -e hey s21_grep.c -o -c -v
+-e for -e ^regex s21_grep.c -o -c -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -c -v -f pattern.txt
+for s21_grep.c s21_grep.h -o -c -l
+for s21_grep.c -o -c -l
+-e for -e ^regex s21_grep.c s21_grep.h -o -c -l
+-e for -e hey s21_grep.c -o -c -l
+-e for -e ^regex s21_grep.c -o -c -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -c -l -f pattern.txt
+for s21_grep.c s21_grep.h -o -c -n
+for s21_grep.c -o -c -n
+-e for -e ^regex s21_grep.c s21_grep.h -o -c -n
+-e for -e hey s21_grep.c -o -c -n
+-e for -e ^regex s21_grep.c -o -c -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -c -n -f pattern.txt
+for s21_grep.c s21_grep.h -o -c -h
+for s21_grep.c -o -c -h
+-e for -e ^regex s21_grep.c s21_grep.h -o -c -h
+-e for -e hey s21_grep.c -o -c -h
+-e for -e ^regex s21_grep.c -o -c -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -c -h -f pattern.txt
+for s21_grep.c s21_grep.h -o -l -v
+for s21_grep.c -o -l -v
+-e for -e ^regex s21_grep.c s21_grep.h -o -l -v
+-e for -e hey s21_grep.c -o -l -v
+-e for -e ^regex s21_grep.c -o -l -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -l -v -f pattern.txt
+for s21_grep.c s21_grep.h -o -l -c
+for s21_grep.c -o -l -c
+-e for -e ^regex s21_grep.c s21_grep.h -o -l -c
+-e for -e hey s21_grep.c -o -l -c
+-e for -e ^regex s21_grep.c -o -l -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -l -c -f pattern.txt
+for s21_grep.c s21_grep.h -o -l -n
+for s21_grep.c -o -l -n
+-e for -e ^regex s21_grep.c s21_grep.h -o -l -n
+-e for -e hey s21_grep.c -o -l -n
+-e for -e ^regex s21_grep.c -o -l -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -l -n -f pattern.txt
+for s21_grep.c s21_grep.h -o -l -h
+for s21_grep.c -o -l -h
+-e for -e ^regex s21_grep.c s21_grep.h -o -l -h
+-e for -e hey s21_grep.c -o -l -h
+-e for -e ^regex s21_grep.c -o -l -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -l -h -f pattern.txt
+for s21_grep.c s21_grep.h -o -n -v
+for s21_grep.c -o -n -v
+-e for -e ^regex s21_grep.c s21_grep.h -o -n -v
+-e for -e hey s21_grep.c -o -n -v
+-e for -e ^regex s21_grep.c -o -n -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -n -v -f pattern.txt
+for s21_grep.c s21_grep.h -o -n -c
+for s21_grep.c -o -n -c
+-e for -e ^regex s21_grep.c s21_grep.h -o -n -c
+-e for -e hey s21_grep.c -o -n -c
+-e for -e ^regex s21_grep.c -o -n -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -n -c -f pattern.txt
+for s21_grep.c s21_grep.h -o -n -l
+for s21_grep.c -o -n -l
+-e for -e ^regex s21_grep.c s21_grep.h -o -n -l
+-e for -e hey s21_grep.c -o -n -l
+-e for -e ^regex s21_grep.c -o -n -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -n -l -f pattern.txt
+for s21_grep.c s21_grep.h -o -n -h
+for s21_grep.c -o -n -h
+-e for -e ^regex s21_grep.c s21_grep.h -o -n -h
+-e for -e hey s21_grep.c -o -n -h
+-e for -e ^regex s21_grep.c -o -n -h -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -n -h -f pattern.txt
+for s21_grep.c s21_grep.h -o -h -v
+for s21_grep.c -o -h -v
+-e for -e ^regex s21_grep.c s21_grep.h -o -h -v
+-e for -e hey s21_grep.c -o -h -v
+-e for -e ^regex s21_grep.c -o -h -v -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -h -v -f pattern.txt
+for s21_grep.c s21_grep.h -o -h -c
+for s21_grep.c -o -h -c
+-e for -e ^regex s21_grep.c s21_grep.h -o -h -c
+-e for -e hey s21_grep.c -o -h -c
+-e for -e ^regex s21_grep.c -o -h -c -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -h -c -f pattern.txt
+for s21_grep.c s21_grep.h -o -h -l
+for s21_grep.c -o -h -l
+-e for -e ^regex s21_grep.c s21_grep.h -o -h -l
+-e for -e hey s21_grep.c -o -h -l
+-e for -e ^regex s21_grep.c -o -h -l -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -h -l -f pattern.txt
+for s21_grep.c s21_grep.h -o -h -n
+for s21_grep.c -o -h -n
+-e for -e ^regex s21_grep.c s21_grep.h -o -h -n
+-e for -e hey s21_grep.c -o -h -n
+-e for -e ^regex s21_grep.c -o -h -n -f pattern.txt
+-e hey -e regex s21_grep.c s21_grep.h Makefile -o -h -n -f pattern.txt
